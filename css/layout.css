@@ -1,0 +1,128 @@
+/*-------------------------------------------------*\
+	FOR YOUR HELP
+
+	Font Family Used: Open Sans
+	Font Weights Used: 300, 400, and 600
+
+	Font Sizes/Weights:
+	Banner: 70px/600
+	Titles: 45px/600
+	Subtitle: 30px/300
+	Boxes: 45px/600
+	Body Copy: 18px/400;
+
+	Colors:
+	Red: #B13629;
+	Light Gray: #9D9D9D;
+	Gray: #515151;
+
+	Light Gray Background: #F4F4F4;
+
+	Use bootstraps classes for as much as possible
+	or makes sense for things like containers, grids,
+	ect...
+
+	Use bootstraps default padding and margins for all
+	elements (columns, header, paragraphs, ect...)
+
+	Don't worry about matching things to the
+	exact height, but use the above as guidelines
+
+
+\*-------------------------------------------------*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
+	font-size: 45px;
+	font-weight: 600;
+	color: #B13629;
+}
+
+h4 {
+	font-size: 30px;
+	font-weight: 300;
+	font-color: #9D9D9D;
+}
+
+p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.header {
+	background-color: #B13629;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+.header img{
+	padding-top: 2vh;
+}
+
+.jumbotron {
+	color: white;
+	font-size: 70px;
+	font-weight: 600;
+	text-align: center;
+	height: 40vh;
+	background: linear-gradient( rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38) ), url(../imgs/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+.skillbox {
+	color: white;
+	font-size: 45px;
+	font-weight: 600;
+	background-color: #B13629;
+	width: 20vw;
+	margin: 2vw;
+	height: 20vh;
+}
+
+.vision {
+	background-color: #F4F4F4;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.visionText{
+	padding-top: 7vh;
+	padding-bottom: 7vh;
+}
+
+.visionText p{
+	line-height:
+}
+
+.img-circle {
+	display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+	margin-left: 20vw;
+	margin-top: 5vw;
+}
